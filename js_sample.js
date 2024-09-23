@@ -32,3 +32,32 @@ function ai(){
    }
  }
 outerfun();
+<<<<<<< Updated upstream
+=======
+
+
+
+// for var variable shadowing and modifying takes place as it is in global scope
+var x1 = 100;
+{
+   var x1= 1000;
+}
+console.log(`x2 value :${x1}`);
+
+// for let, const variable shadowning alone takes place due to block scope
+
+let y1 = 10;
+{
+   let y1 = 100;
+   console.log(`value of y1 inside block:${y1}`);
+}
+console.log(`value of y1 outside block:${y1}`);
+
+
+const z1 = 10;
+{
+   const z1 = 100;
+   console.log(`value of z1 inside block:${z1}`);
+}
+console.log(`value of z1 outside block:${z1}`);
+>>>>>>> Stashed changes
