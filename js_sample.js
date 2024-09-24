@@ -32,8 +32,6 @@ function ai(){
    }
  }
 outerfun();
-<<<<<<< Updated upstream
-=======
 
 
 
@@ -60,4 +58,3 @@ const z1 = 10;
    console.log(`value of z1 inside block:${z1}`);
 }
 console.log(`value of z1 outside block:${z1}`);
->>>>>>> Stashed changes
